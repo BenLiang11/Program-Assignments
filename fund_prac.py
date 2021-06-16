@@ -8,6 +8,8 @@ age = "21" #int
 salary = "90.56" #float
 plays_video_games = True #boolean
 fav_num = "56" #int
+int (asdfa) = "132"
+print (asdfa)
 
 #Step 2
 car_name = "Tesla"
