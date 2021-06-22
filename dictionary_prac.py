@@ -25,3 +25,22 @@ print (shoe_inv)
 
 shoe_inv ["Air Force"] = 15
 print (shoe_inv)
+
+#function 2
+def restock (shoe_name, multiplier):
+    newInv = shoe_inv[shoe_name] * multiplier
+    shoe_inv[shoe_name] = newInv
+    return shoe_inv
+
+print (restock("Yeezy", 3))
+
+
+#functions
+def total (p1,p2):
+    price = grocery_list [p1] + grocery_list [p2]
+    return price
+
+print (total("chicken", "beef"))
+
+
+    
